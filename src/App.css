@@ -1,0 +1,74 @@
+.container{
+    width: 70%;
+    margin: 0 auto;   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-card{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    width: 20%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-card-photo{
+    width: 150px;
+}
+
+.item-card-name{
+    text-align: center;
+}
+.container-app{
+    width: 70%;
+    margin: 0 auto;
+}
+/* CSS do Home*/
+.category-item{
+    height: 34px;
+    padding: 10px 5px;
+    width: 100%;
+    background-color: #304E74;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color:#fff;
+}
+
+/* CSS MENU */
+
+.menu {
+    height: 44px;
+    background: #EC6D08;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+  }
+  
+  .menu-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  }
+  
+  .menu-list-item {
+   color: #FFF;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none; 
+  }
